@@ -11,8 +11,16 @@
 
 .service__img
 {
-  width: 89%;
+  position: relative;
+  width: 161%;
   margin-right: 7%;
+}
+.service__img-90s
+{
+  position: absolute;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  padding-left: 70px;
 }
 
 .service___content
