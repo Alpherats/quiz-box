@@ -1,0 +1,18 @@
+.top-line
+{
+min-height: 419px;
+display: flex;
+flex-direction: column;
+padding-bottom: 25px;
+background: url(./pictures/backgrounds/bkgr-bw-top.jpg);
+background-repeat: no-repeat;
+background-position: right 10% top;
+}
+
+.top-line__container
+{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
