@@ -1,0 +1,97 @@
+html, body
+{
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  color:#FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  font-family: 'Open Sans', sans-serif;
+  background:  #17191C;
+  -webkit-font-smoohing: antiliased;
+  -moz-osx-font-smoohing: grayscale;
+}
+
+.wrapper__content
+{
+  overflow: hidden;
+  min-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-image: url(../pictures/backgrounds/bkgr-bw-top.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.wrapp__content
+{
+  overflow: hidden;
+  min-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.header__container
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.footer-container
+{
+  margin-top: auto;
+}
+
+*
+{
+box-sizing: border-box;
+}
+
+button
+{
+  border: none;
+}
+h1, h2,h3,h4,h5,h6
+{
+  margin-bottom: 0;
+  font-weight: none;
+}
+
+a
+{
+  text-decoration:none;
+}
+
+ul
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li
+{
+  list-style: none;
+}
+
+p
+{
+ margin-top: 0px;
+}
+
+img
+{
+  display: block;
+  max-width:100% ;
+}

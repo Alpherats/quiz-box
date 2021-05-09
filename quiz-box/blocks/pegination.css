@@ -1,0 +1,54 @@
+.pegination
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.pegination__info, .pegination__list
+{
+  vertical-align: middle;
+}
+
+.pegination__info
+{
+  margin-top: -14px;
+  margin-right: 16px;
+  margin-left: 27PX;
+}
+
+.pegination__list
+{
+  margin-top: -19px;
+  display: flex;
+  justify-content: center;
+}
+.pegination__item
+{
+  text-align: center;
+}
+.pegination__item-active .pegination__link
+{
+  background: #8F00FF;;
+}
+
+.pegination__link
+{
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.pegination-dark, .pegination__link-dark
+{
+  color: #000000;
+
+}

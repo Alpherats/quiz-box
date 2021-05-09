@@ -1,0 +1,60 @@
+.about__section
+{
+  background-image: url(../pictures/backgrounds/bkgr-bw-buttom.jpg); 
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 53px;
+}
+
+.about__info:before, .about__info-decription
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about:before
+{
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 845px;
+  height: 563px;
+  background: url(../pictures/ground-pictures/about-us.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.about__desc
+{
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+  padding-top: 28px;
+  padding-bottom: 70px;
+  padding-right: 80px;
+  padding-left: 95px;
+  max-width: 785px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -506px;
+  margin-top: 113px;
+}
+.about__title
+{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.about__desc-text
+{
+  margin-bottom: 72px;
+}
+
+.about__desc-text p 
+{
+  margin-bottom: 40px;
+}
+
+.about__desc-textp p:last-child
+{
+  margin-bottom: 0px;
+} 

@@ -1,0 +1,29 @@
+.contacts{
+  font-style: normal;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+ }
+
+ .contacts__desc
+ {
+   color:#9A9A9A;
+  font-weight: normal;
+  font-size: 11px;
+ }
+
+ .contacts__phone
+ {
+   font-size: 26px;
+  margin-bottom: 1px;
+  text-decoration: none;
+  color:#FFFFFF;
+  ;
+}
+
+.contacts__time
+{
+  font-size: 13px;
+  text-decoration: underline;
+}

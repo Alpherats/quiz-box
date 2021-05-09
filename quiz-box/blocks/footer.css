@@ -1,0 +1,22 @@
+.footer
+{
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container__section
+{
+  height: 152px;
+}
+.footer__col
+{
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__col-right
+{
+  justify-content: flex-end;
+}

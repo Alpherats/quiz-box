@@ -1,0 +1,31 @@
+.menu
+{ 
+  display: flex;
+  justify-content: center;
+}
+.menu-footer
+{
+  margin-left: 80px;
+  margin-top: 6px;
+}
+.menu__sections
+{
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 57px;
+}
+
+.menu__sections:last-child
+{
+  margin-right: 0;
+}
+.menu__link
+{
+  color:#FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+}
+.menu__link:hover
+{
+  color:#8F00FF;
+}
