@@ -1,12 +1,16 @@
 .services
 {
-  margin-bottom: 70px;  
+  margin-top: 90px;
+  margin-bottom: 79px;
 }
 
+.services__item
+{
+  margin-bottom: 60px;
+}
 .service
 {
   display: flex;
-  padding-top: 52px;
 }
 
 .service__img
