@@ -4,9 +4,11 @@
   display: flex;
   justify-content: flex-end;
   flex-flow: column;
-  margin-top: 89px
  }
-
+.contacts-footer
+{
+  margin-top: 89px
+}
  .contacts__desc
  {
    color:#9A9A9A;
