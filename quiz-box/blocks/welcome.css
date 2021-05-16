@@ -1,0 +1,17 @@
+.welcome
+{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/pictures/backgrounds/bkgr-bw-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom ;
+  background-size: cover;
+}

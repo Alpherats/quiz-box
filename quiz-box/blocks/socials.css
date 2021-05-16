@@ -3,11 +3,14 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
+  /* НОВЫЙ СТИЛЬ */
+  margin-left: -93px;
 }
 .socials__list
 {
   display: flex;
   margin-right: 74px;
+  margin-bottom: 100px;
 }
 .socials__sections:last-child
 {

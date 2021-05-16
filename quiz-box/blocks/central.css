@@ -1,0 +1,52 @@
+.central
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bounce 1.3s;
+  opacity:0 ;
+  animation-fill-mode: forwards;
+  animation-delay: .5s;
+}
+
+.central__logo
+{
+  margin-bottom: 40px;
+}
+
+@keyframes bounce
+{
+  0% {
+    transform: translateY(0);
+  }
+  20%
+  {
+    animation-timing-function: cubic-bezier(0.19,0.98,0.56,1);
+    transform: translateY(-30px);
+  }
+  30%
+  {
+    transform: translateY (0);
+  }
+  50%
+  {
+    transform: translateY(-15px);
+  }
+  60%
+  {
+    transform: translateY(0px);
+  }
+  65%
+  {
+    transform: translateY(-3px);
+  }
+  80%
+  {
+    transform: translateY(0px);
+
+  }
+  100%
+  {
+    opacity: 1;
+  }
+}
