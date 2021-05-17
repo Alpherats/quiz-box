@@ -2,6 +2,7 @@
 {
   column-count: 2;
   column-gap: 30px;
+  margin-top: 110px;
   margin-bottom: 75px;
 }
 .reviews__item
@@ -38,7 +39,7 @@
 .review__user::after
 {
   padding-left: 28px;
-  content: url(./pictures/socials/vk-blue.png);
+  content: url(../pictures/socials/vk-blue.png);
   height: 29px;
 }
 
