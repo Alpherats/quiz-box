@@ -9,12 +9,12 @@
 {
   margin-top: 89px
 }
- .contacts__desc
+ /* .contacts__desc
  {
-   color:#9A9A9A;
+  color:#9A9A9A;
   font-weight: normal;
   font-size: 11px;
- }
+ } */
 
  .contacts__phone
  {
@@ -24,22 +24,3 @@
   color:#FFFFFF;
 }
 
-.contacts__time
-{
-  font-size: 13px;
-  text-decoration: underline;
-  color:#98A4A8;
-  cursor: pointer;
-  position: relative;
-  transition: .3s;
-}
-
-.contacts__time:hover
-{
-  color:#FFFFFF;
-}
-
-.contacts__schedule-wrap
-{
-  margin-bottom: 20px;
-}
